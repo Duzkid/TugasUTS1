@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.tugasuts"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.tugasuts"
