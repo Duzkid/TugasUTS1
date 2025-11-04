@@ -28,6 +28,17 @@
         android:layout_marginBottom="16dp"
         android:inputType="textEmailAddress" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="phone" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,12 +81,14 @@
         android:id="@+id/btnCancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
         android:text="Batal" />
 
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
         android:text="Kirim" />
 
 </LinearLayout>
